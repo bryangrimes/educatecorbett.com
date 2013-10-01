@@ -19,6 +19,73 @@ footer {
      -moz-box-shadow: 0 8px 6px 6px black;
           box-shadow: 0 8px 6px 6px black;
 }
+
 footer p{
      padding: 5px 0 12px 10px;
+}
+
+footer a {
+    color       : #FFF;
+    font-weight : 400
+}
+
+footer a:hover {
+    color           : #00aeef;
+    text-decoration : underline
+}
+
+#footer .yelp-icon, #footer .vimeo-icon, #footer .youtube-icon, #footer .twitter-icon, #footer .facebook-icon, #footer .linkedin-icon, #footer .rss-feed-icon, #footer .instagram-icon, #footer .pinterest-icon, #footer .foursquare-icon, #footer .google-plus-icon, #footer .stumble-upon-icon {
+    display      : inline;
+    margin       : 1px;
+    padding-left : 3px
+}
+
+.social-roll {
+    height             : 27px;
+    width              : 27px;
+    margin             : 10px 10px 0 0;
+    float              : left;
+    border-radius      : 50%;
+    -webkit-transition : all ease .3s;
+    -moz-transition    : all ease .3s;
+    -o-transition      : all ease .3s;
+    -ms-transition     : all ease .3s;
+    transition         : all ease .3s
+}
+
+.facebook-roll {
+    background : url(../img/socialico.png) 0 0
+}
+
+.facebook-roll:hover {
+    background : url(../img/socialicoHover.png) 0 0
+}
+
+.twitter-roll {
+    background : url(../img/socialico.png) 103px 0
+}
+
+.twitter-roll:hover {
+    background : url(../img/socialicoHover.png) 103px 0
+}
+
+.youtube-roll {
+    background : url(../img/socialico.png) 67px 0
+}
+
+.youtube-roll:hover {
+    background : url(../img/socialicoHover.png) 67px 0
+}
+
+.linkedin-roll {
+    background : url(../img/socialico.png) 31px 0
+}
+
+.linkedin-roll:hover {
+    background : url(../img/socialicoHover.png) 31px 0
+}
+
+.social-icons a {
+    display : block;
+    height  : 27px;
 }

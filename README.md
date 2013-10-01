@@ -1,4 +1,4 @@
-# EducateCorebett.com
+# EducateCorbett.com
 
 open source, work in progress.
 
