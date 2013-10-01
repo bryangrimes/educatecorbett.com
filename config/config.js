@@ -3,7 +3,6 @@ var path = require('path'),
 
 module.exports = {
     development: {
-        //db: 'mongodb://localhost/corbett-dev',
         db: process.env.DATABASE_URI,
         root: rootPath,
         app: {
