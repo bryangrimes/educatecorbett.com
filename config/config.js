@@ -3,7 +3,8 @@ var path = require('path'),
 
 module.exports = {
     development: {
-        db: 'mongodb://corbett:​Wrx3gq2Xve6gu6nX@paulo.mongohq.com:10090/app18429073-dev',
+        //db: 'mongodb://localhost/corbett-dev',
+        db: process.env.DATABASE_URI,
         root: rootPath,
         app: {
             name: 'EducateCorbett.com - DEV'
@@ -30,7 +31,7 @@ module.exports = {
         }
     },
     test: {
-        db: 'mongodb://corbett:​Wrx3gq2Xve6gu6nX@paulo.mongohq.com:10090/app18429073-test',
+        db: process.env.DATABASE_URI,
         root: rootPath,
         app: {
             name: 'EducateCorbett.com- TEST'
@@ -57,7 +58,7 @@ module.exports = {
         }
     },
     production: {
-        db: 'mongodb://corbett:​Wrx3gq2Xve6gu6nX@paulo.mongohq.com:10090/app18429073',
+        db: process.env.DATABASE_URI,
         root: rootPath,
         app: {
             name: 'EducateCorbett.com'
