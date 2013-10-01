@@ -3,7 +3,7 @@
     "description": "Mongo",
     "version": "1.0.0",
     "private": false,
-    "author": "MEAN - A Modern Stack: MongoDB, ExpressJS, AngularJS, NodeJS. (BONUS: Passport User Support).",
+    "author": "EducateCorbett.com",
     "engines": {
         "node": "0.10.x",
         "npm": "1.2.x"
